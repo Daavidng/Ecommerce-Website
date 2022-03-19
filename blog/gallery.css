@@ -1,0 +1,194 @@
+.border{
+background-color: #f1f1f1;
+padding-bottom:10px;
+}
+.logo{
+ width: 130px;
+  height: 130px; 
+  margin:0;
+  overflow: visible;
+  padding:0;
+}
+.search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 0px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background: #ccc;
+}
+.search-container {
+  float: right;
+  padding:0px;
+  margin:3px;
+}
+
+.header a{
+  float:left;
+  color: #ffffff;
+  text-align: left;
+  padding: 25px;
+  text-decoration: none; 
+  line-height: 20px;
+  border-radius: 2px;
+}
+
+.navbar input[type=text] {
+  padding: 6px;
+  margin: 0px;
+  font-size: 17px;
+  border: none;
+  
+}
+.navbar{
+margin-bottom:10px;
+}
+.navbar ul {
+            list-style-type: none;
+            margin: 10;
+            padding:0;
+            overflow: hidden;
+            background-color: #8a1e69;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: #ffffff;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #c26ec2;
+            color: black;
+        }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+ 
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 50%;
+  padding: 0 5px;
+}
+
+.column img {
+  margin-top: 10px;
+  vertical-align: left;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+.foot ul li{
+list-style-type:none;
+float:left;
+}
+
+.fa-whatsapp{
+	float:left;
+        background-color: #4dbd3c;
+	background-position: center;
+	background-size: 80px 50px;
+	border-radius: 50%;
+}
+.fa-instagram{
+	float:left;
+        background: url('instagram-background.jpg');
+	background-position: center;
+	background-size: 100px 100px;
+border-radius: 10%;
+}
+.foot ul a i:hover{
+background-color:#c26ec2;;
+}
+footer{
+position:relative;
+}
+.foot1{
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+float:left;
+font-family:"Times New Roman", Times, serif; 
+font-weight:bold;
+position:relative;
+}
+.foot2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left:33.33%;
+  float:left;
+font-family:"Times New Roman", Times, serif; 
+font-weight:bold;
+}
+.foot ul{
+float:right;
+}
+.aboutUs{
+display:block;
+padding-top:10px;
+padding-left:10px;
+}
+.aboutUs .companyCR p{
+  text-align:centre;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}
+.aboutUs li a{
+text-decoration:none;
+color:white;
+}
+.aboutUs li a:hover{
+background-color: #c26ec2;
+}
+.footerAll{
+  content: "";
+  display: table;
+  clear: both;
+background-color:#8a1e69;
+width:100%;
+}

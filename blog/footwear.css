@@ -1,0 +1,310 @@
+body{
+background-color:#e3b1e6;
+margin:0;
+  font-family: Arial;
+  font-size: 17px;
+
+}
+
+.border{
+background-color: #a9a9cf;
+padding-bottom:0px;
+object-fit: cover;
+object-fit: contain;
+background:url('The Force is Female - Nike AirForce 1.jpg');
+}
+.logo{
+ width: 130px;
+  height: 130px; 
+  margin-left:680px;
+  overflow: visible;
+  padding:0;
+	
+}
+.search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 0px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background: #ccc;
+}
+.search-container {
+  float: right;
+  padding:0px;
+  margin:3px;
+}
+
+.header a{
+  float:left;
+  color: #ffffff;
+  text-align: left;
+  padding: 25px;
+  text-decoration: none; 
+  line-height: 20px;
+  border-radius: 2px;
+}
+section,aside{
+ margin: 0 1.5% 24px 1.5%;
+}
+section{
+float:left;
+}
+aside{
+float:right;
+   margin: 20px 20px;
+    padding: 10px;
+    padding-bottom:0px;
+    width: 180px;
+    text-align:left;
+    width:18%;
+    float:right;
+    position:absolute;
+}
+.navbar input[type=text] {
+  padding: 6px;
+  margin: 0px;
+  font-size: 17px;
+  border: none;
+  
+}
+.navbar{
+margin-bottom:10px;
+}
+.navbar ul {
+            list-style-type: none;
+            margin: 10;
+            padding:0;
+            overflow: hidden;
+            background-color: #8a1e69;
+        }
+
+        .navbar li {
+            float: left;
+        }
+
+       .navbar li a {
+            display: block;
+            color: #ffffff;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .navbar li a:hover {
+            background-color: #c26ec2;
+            color: black;
+        }
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.container {
+  position: relative;
+
+}
+
+.container img
+{
+display: block;
+margin-left:auto;
+margin-right: 25%;
+}
+
+.content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  margin-left:25%;
+  width:50%;
+  height:auto;
+  padding:25px;
+}
+.publish{
+background-color: rgba(0,0,0,0.1);
+height:30px;
+float:left;
+display: inline;
+margin-left:25%;
+margin-right: 25%;
+position:relative;
+}
+.text{
+	margin-left:25%;
+	margin-right:25%;
+        float:left;
+	text-align: justify;
+	
+}
+.y{
+    border-bottom: 3px solid #8a1e69;
+}
+.news{
+ 
+}
+.newscontent{
+    float:right;
+}
+.thumbnail img{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 10px;
+}
+image:hover{
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+@media (max-width: 600px) {
+  .publish span.publish-c {
+    display: inline-blockS;
+  }
+}
+.publish-c{
+display:inline-block;
+margin-left:20px;
+font: italic bold 70%/25px Georgia;
+float:right;
+padding-right:20px;
+overflow:hidden;
+font-size: 0.8vw;
+}
+
+.publish-b{
+padding-left:10px;
+font: italic bold 70%/25px Georgia;
+font-size: 0.8vw;
+}
+.publish-a{
+padding-left:5px;
+font: italic bold 70%/25px Georgia;
+font-size: 0.8vw;
+}
+.fa-calendar-alt{
+padding-top:5px;
+}
+
+.fa-at{
+margin-bottom:40px;
+}
+
+.fa-filter{
+padding-top:1px;
+}
+
+.blogPost .blog-post-thesis {
+  margin-top: 3px;
+  font-family:"Times New Roman",sans-serif;
+}
+.blogPost .thumbnail {
+  float: right;
+  padding: 3px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  width: 80px;
+  height: 80px;
+}
+@media screen and (max-width: 800px) {
+  .right {
+    width: 100%;
+  }
+}
+.blogPost{
+list-style-type:none;
+position:static;
+}
+.blogPost .thumbnail .img {
+  width: 78px;
+  height: 78px;
+}
+.policy{
+backgound: rgba(0,0,0);
+}
+
+.blog-recentpost-date{
+font-family:"Courgette",sans-serif;
+font-size:11pt;
+}
+.foot ul li{
+list-style-type:none;
+float:left;
+}
+
+.fa-whatsapp{
+	float:left;
+        background-color: #4dbd3c;
+	background-position: center;
+	background-size: 80px 50px;
+	border-radius: 50%;
+}
+.fa-instagram{
+	float:left;
+        background: url('instagram-background.jpg');
+	background-position: center;
+	background-size: 100px 100px;
+border-radius: 10%;
+}
+.foot ul a i:hover{
+background-color:#c26ec2;;
+}
+footer{
+position:relative;
+}
+.foot1{
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+float:left;
+font-family:"Times New Roman", Times, serif; 
+font-weight:bold;
+position:relative;
+}
+.foot2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left:33.33%;
+  float:left;
+font-family:"Times New Roman", Times, serif; 
+font-weight:bold;
+}
+.foot ul{
+float:right;
+}
+.aboutUs{
+display:block;
+padding-top:10px;
+padding-left:10px;
+}
+.aboutUs .companyCR p{
+  text-align:centre;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}
+.aboutUs li a{
+text-decoration:none;
+color:white;
+}
+.aboutUs li a:hover{
+background-color: #c26ec2;
+}
+.footerAll{
+  content: "";
+  display: table;
+  clear: both;
+background-color:#8a1e69;
+width:100%;
+}

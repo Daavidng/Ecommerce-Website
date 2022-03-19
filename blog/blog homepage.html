@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<head><title>Blog homepage</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="blog.css">
+<script src="https://kit.fontawesome.com/dada6008cf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+<div class="border">
+<div class="logo">
+
+<a href="../main dashboard/main_dashboard.html">
+  <img src="logo.png" alt="KAY's Shoes" style="width:150px;height:130px;">
+</a>
+
+
+
+</div>
+<div class="navbar">
+    <ul>
+        <li><a href="blog homepage.html">BLOG HOME</a></li>
+        <li><a href="women footwear.html">WOMEN</a></li>
+        <li><a href="men footwear.html">MEN</a></li>
+	<li><a href="children footwear.html">CHILDREN</a></li>
+	<div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." style="background-color:white; name="search">
+      <button type="submit"><i class="fa fa-search"></i></button></div>
+    </form>
+    </ul>
+
+</div>
+</div>
+</div>
+</header>
+<h1>KAY's Footwear</h1>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="footwear slideshow1.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="footwear slideshow2.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="footwear slideshow3.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img src="footwear slideshow4.jpg" style="width:100%">
+  <div class="text">Caption four</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <img src="footwear slideshow5.jpg" style="width:100%">
+  <div class="text">Caption four</div>
+</div>
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"onclick="currentSlide(1)"></span> 
+  <span class="dot"onclick="currentSlide(2)"></span> 
+  <span class="dot"onclick="currentSlide(3)"></span> 
+  <span class="dot"onclick="currentSlide(4)"></span> 
+  <span class="dot"onclick="currentSlide(5)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+if (n > slides.length) {slideIndex = 1} 
+if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+if (n < 1) {slideIndex = slides.length}
+for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+</script>
+<div id="subscribe-image">
+<div id="subscribe-text">
+<p>Subcribe Us To Know More Information About KAY's Footwear</p>
+<button onclick="notice()">Subscribe</button>
+
+<script>
+var count=0;
+function notice(){
+if(confirm("Thank you for Subcribing Us!")){
+count+=1;
+}
+if(count>1){
+alert("You Have subcribed Us, Thank You!");
+}
+}
+</script>
+</div>
+</div>
+
+
+<footer>
+<div class="footer">
+<ul>
+		<li><a href=""><i class="fa fa-facebook-square"aria-hidden="true" style="font-size:24px;color:#3388ff;padding-right:3px;"></i>Facebook</a></i>
+		<li><a href=""><i class="fa fa-whatsapp" aria-hidden="true" style="font-size:24px;color:white;padding-right:3px;"></i>Whatsapp</a>	</li>	
+		<li><a href=""><i class="fa fa-instagram" aria-hidden="true" style="font-size:24px;color:white;padding-right:3px;"></i>Instagram</a>	</li>				
+	</ul>
+
+</div>
+</footer>
+</body>
+</html>
